@@ -4,7 +4,7 @@ import os
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 
 # Admin configuration
-ADMIN_ID = 5974022170
+ADMIN_ID = int(os.getenv("ADMIN_ID", "5974022170"))
 ADMIN_LINK = "@chang_chi_won"
 
 # Channel and Instagram configuration
